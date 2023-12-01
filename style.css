@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F7F9 !important;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+ 
+}
+.card{
+    border: none !important;
+    
+}
+.main{
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-maintext{
+    color: grey;
+}
+.card-maintext{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-heart{
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-heart:hover{
+    color: rgb(231, 34, 34);
+    transition: 0.5s;
+}
+.card-text1{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(106, 106, 106);
+
+}
+
+
+.last-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lari{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.lariWord{
+    color: rgb(125, 124, 124);
+    font-weight: bolder;
+}
+button{
+    background-color: #3563E9;
+    border: none;
+    border-radius: 10px !important;
+    padding: 2px 10px !important;
+    margin-bottom: 15px !important;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    color: white;
+    background-color: rgb(18, 18, 103);
+    transition: 0.2s;
+}
+
+
+
